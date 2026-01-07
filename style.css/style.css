@@ -19,24 +19,28 @@
     background-color: #FFF8F3;
     padding-top: 51px;
     background-image: url(../images/developer.png),url(../images/header_bg.png);
-    background-position: top left,right bottom;
+    background-position: 38px 25px ,right bottom;
     background-repeat: no-repeat;
 }
 .nav{
     width: 71%;
     max-width: 1140px;
-   
     display: flex;
     justify-content: space-between;
+    
     margin: 0 auto;
     margin-left: 230px;
 }
+
+   
 .nav ul{
-    display: flex;
-    list-style-type: none;
-    align-items: center;
-    gap: 51px;
+    list-style-type: none; 
+     display: flex;
+     align-items: center;
+     gap: 51px;
 }
+
+
 .nav ul a{
     text-decoration: none;
 }
@@ -165,5 +169,70 @@ color: #FD6E0A;
 .skills-parent p{
     font-size: 16px;
     line-height: 28px;
+    color:#757575;
     margin-top: 20px;
+}
+.resume-section{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 113px;
+    
+}
+.edu-exp-parent-first{
+    display: flex;
+    gap: 71px;
+}
+.resume-section h2{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 113px;
+}
+    
+.edu-exp-parent .head{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #474747;
+
+}
+.edu-exp-parent h4{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #474747;
+    text-align: left;
+}
+
+.edu-exp-parent h5{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color:#757575;
+    text-align: left;
+}
+.edu-exp-parent p{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 30px;
+    color:#757575;
+}
+.edu-exp-parent hr{
+    color: #D1D1D1;
+    margin-bottom: 30px;
+}
+.edu-child{
+    max-width: 511px;
+    
+}
+.resume-section  ,.btn{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 113px;
+    
 }
