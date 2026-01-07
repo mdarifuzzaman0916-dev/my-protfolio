@@ -9,7 +9,8 @@
     color:white;
     border: none;
     border-radius: 5px;
-    padding: 18px 36px  ;
+    padding: 18px 36px;
+    cursor: pointer;
 }
 .open-sans{
     font-family: "Open Sans", sans-serif;
@@ -22,26 +23,23 @@
     background-position: 38px 25px ,right bottom;
     background-repeat: no-repeat;
 }
-.nav{
+nav{
     width: 71%;
     max-width: 1140px;
     display: flex;
     justify-content: space-between;
-    
     margin: 0 auto;
     margin-left: 230px;
 }
 
    
-.nav ul{
-    list-style-type: none; 
-     display: flex;
-     align-items: center;
-     gap: 51px;
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 51px;  
 }
-
-
-.nav ul a{
+nav ul a{
     text-decoration: none;
 }
 
@@ -76,7 +74,7 @@ color: #FD6E0A;
     padding: 5px 0;
 }
 .content-div h1{
-    font-size: 85px;
+    font-size: 71px;
     font-weight: bold;
 }
 .content-div p{
@@ -87,10 +85,11 @@ color: #FD6E0A;
 .content-div .btn{
     margin: 30px 30px 0  0;
 }
-.content-div .img{
-    width: 584;
-    height: 676;
-    justify-content: middle;
+.content-div .img,img{
+    max-width: 584px;
+    vertical-align: middle;
+    
+    
 }
 .about-parent{
     width: 71%;
@@ -228,11 +227,66 @@ color: #FD6E0A;
     max-width: 511px;
     
 }
-.resume-section  ,.btn{
+.resume-section ,.btn{
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 113px;
     
+   
+    
+    
+}
+.footer-parent{
+    background-color: #FFF8F3; 
+}
+.footer-parent-2{
+    width: 71%;
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    gap: 117px;
+    margin: 0 auto;
+}
+.footer-child h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 138px;
+    color:#181818;
+}
+.footer-child p{
+    font-size: 15px;
+    line-height: 28px;
+    color: #474747;
+    margin-top: 20px;
+}
+.footer-child .img{
+    margin-top: 30px;
+    word-spacing: 24px;
+    color: #FFFFFF;
+}
+.footer-child form input{
+         width: 461px;
+         height: 64px;
+         font-size: 16px;
+         background-color: #FFFFFF; 
+         border-radius: 5px;   
+         color:#757575 ;
+        line-height: 28px;
+        border: none;
+        margin-top: 28px;
+        padding-left: 30px;
+}
+
+.footer-child textarea{
+    border-radius: 5px;
+    border: none;
+    color: #757575;
+    background-color: #FFFFFF;
+   padding-top: 18px;
+   padding-left: 30px;
+   margin-top: 24px;
+}
+.footer-child .btn{
+    margin-top: 24px;
+    margin-bottom: 122px;
 }
