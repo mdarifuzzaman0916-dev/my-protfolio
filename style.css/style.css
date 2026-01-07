@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
    
 }
 .btn{
@@ -90,11 +91,11 @@ color: #FD6E0A;
 .about-parent{
     width: 71%;
     max-width: 1140px;
-    max-width: 550px;
+    
     background-color: #FFF8F3;
     border-radius: 10px;
     margin: 113px auto;
-    padding: 145px 156px 100px;
+    padding: 145px 156px 117px;
 }
 .text{
     max-width: 827px;
@@ -102,6 +103,7 @@ color: #FD6E0A;
 .child{
     display: flex;
     gap: 50px;
+    justify-content: center;
     align-items: center;
 }
 .about-parent h2{
@@ -121,4 +123,47 @@ color: #FD6E0A;
     font-size: 20px;
     line-height: 30px;
     
+}
+.main-section{
+    width: 71%;
+    max-width: 1140px;
+    
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 144px;
+}
+.text-content h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.text-content .main-p{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.skills-parent{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+.main-section .skills-parent .skills-child{
+    max-width: 247px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    border: none;
+    box-shadow: 0 6px 35px 0px #000000;
+    padding: 30px;
+    text-align: left;
+}
+.skills-parent h2{
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 30px;
+}
+.skills-parent p{
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 20px;
 }
