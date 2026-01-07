@@ -87,3 +87,38 @@ color: #FD6E0A;
     height: 676;
     justify-content: middle;
 }
+.about-parent{
+    width: 71%;
+    max-width: 1140px;
+    max-width: 550px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    margin: 113px auto;
+    padding: 145px 156px 100px;
+}
+.text{
+    max-width: 827px;
+}
+.child{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.about-parent h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.about-parent .abouto-main-p{
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.about-parent .child p h4{
+    font-size: 20px;
+    line-height: 30px;
+    
+}
