@@ -375,5 +375,8 @@ nav ul {
 }
 .head-continer {
     background-image:  url(../images/header_bg.png);
+    background-size: cover;
+    background-size: 800px;
+    background-position: center bottom;
 }
 }
