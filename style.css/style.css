@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
 }
 .btn{
     background-color: #FD6E0A;
@@ -31,8 +30,6 @@ nav{
     margin: 0 auto;
     margin-left: 230px;
 }
-
-   
 nav ul {
     list-style: none;
     display: flex;
@@ -42,7 +39,6 @@ nav ul {
 nav ul a{
     text-decoration: none;
 }
-
 .logo h2 span{
 color: #FD6E0A;
 }
@@ -55,7 +51,6 @@ color: #FD6E0A;
     color: #474747;
 }
 #section{
-    
     margin: 46px 38px 0 230px;
     display: flex;
     justify-content: space-between;
@@ -64,7 +59,6 @@ color: #FD6E0A;
 }
 .content-div{
     max-width: 585px;
-    
     background-repeat: no-repeat;
 }
 .content-div h2{
@@ -88,13 +82,10 @@ color: #FD6E0A;
 .content-div .img,img{
     max-width: 584px;
     vertical-align: middle;
-    
-    
 }
 .about-parent{
     width: 71%;
     max-width: 1140px;
-    
     background-color: #FFF8F3;
     border-radius: 10px;
     margin: 113px auto;
@@ -125,12 +116,10 @@ color: #FD6E0A;
 .about-parent .child p h4{
     font-size: 20px;
     line-height: 30px;
-    
 }
 .main-section{
     width: 71%;
     max-width: 1140px;
-    
     margin: 0 auto;
     text-align: center;
     margin-top: 144px;
@@ -176,8 +165,7 @@ color: #FD6E0A;
     max-width: 1140px;
     margin: 0 auto;
     margin-top: 130px;
-    margin-bottom: 113px;
-    
+    margin-bottom: 113px; 
 }
 .edu-exp-parent-first{
     display: flex;
@@ -189,13 +177,11 @@ color: #FD6E0A;
     text-align: center;
     margin-bottom: 113px;
 }
-    
 .edu-exp-parent .head{
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 30px;
     color: #474747;
-
 }
 .edu-exp-parent h4{
     font-size: 25px;
@@ -204,7 +190,6 @@ color: #FD6E0A;
     color: #474747;
     text-align: left;
 }
-
 .edu-exp-parent h5{
     font-size: 20px;
     font-weight: 600;
@@ -231,10 +216,6 @@ color: #FD6E0A;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    
-   
-    
-    
 }
 .footer-parent{
     background-color: #FFF8F3; 
@@ -276,7 +257,6 @@ color: #FD6E0A;
         margin-top: 28px;
         padding-left: 30px;
 }
-
 .footer-child textarea{
     border-radius: 5px;
     border: none;
@@ -289,4 +269,99 @@ color: #FD6E0A;
 .footer-child .btn{
     margin-top: 24px;
     margin-bottom: 122px;
+}
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+  .footer-parent-2{
+    flex-direction: column;
+    gap: 25px;
+    margin: 20px;
+  }
+  .footer-child h2{
+    margin-top: 50px;
+    font-size: 30px;
+  }
+ .footer-child h2{
+    margin-top: 25px;
+ }
+ .footer-child form input {
+    width: 100%;
+    font-size: 16px;
+ }
+ .footer-child textarea {
+   width: 100%;
+}
+.resume-section {
+    margin: 20px;
+    margin-top: 60pxpx;
+    margin-bottom: 60px;
+}
+.resume-section h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.edu-exp-parent-first {
+    flex-direction: column;
+}
+.main-section {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.skills-parent {
+    flex-direction: column;
+}
+.about-parent {
+    margin: 20px;
+    padding: 10px;
+    width: 90%;
+}
+.child {
+    flex-direction: column;
+    text-align: center;
+}
+nav {
+    flex-direction: column;
+    margin: 0 auto;
+    margin-left: 20px;
+    width: 90%;
+}
+nav ul {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.resume-section, .btn {
+    grid-column: span 2;
+}
+#section {
+    flex-direction: column;
+    margin: 20px;   
+}
+.content-div {
+    width: 90%;
+}
+.content-div h2 {
+    font-size: 25px;
+    font-weight: 600px;
+    padding: 5px 0;
+}
+.content-div h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+.content-div p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+.head-continer {
+    background-image:  url(../images/header_bg.png);
+}
 }
